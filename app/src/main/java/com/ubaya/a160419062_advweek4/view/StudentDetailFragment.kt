@@ -18,7 +18,6 @@ import kotlinx.android.synthetic.main.fragment_student_detail.*
  */
 class StudentDetailFragment : Fragment() {
     private lateinit var viewModel: DetailViewModel
-    private val studentListAdapter = StudentListAdapter(arrayListOf())
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
